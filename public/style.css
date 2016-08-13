@@ -1,0 +1,43 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald:400,700);
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  background-image: url("img/light-bg1.png");
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  font-size: 22px;
+}
+
+
+h1 {
+color: green;
+font-family: 'Oswald', sans-serif;
+}
+
+.title {
+  font-size: 5em;
+}
+
+.btn {
+  font-size: inherit;
+  color: white;
+  background-color: purple;
+  text-decoration: none;
+  padding: 1em 2em 0.5em 0.5em;
+  margin-bottom: 1.5em;
+  display: inline-block;
+}
+
+.guess {
+ font-size: 2em;
+  display: block;
+  margin: 0 auto 1.5em;
+}
+
+.trophy {
+  height: 400px;
+}
